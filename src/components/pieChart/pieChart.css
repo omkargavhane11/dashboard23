@@ -1,0 +1,21 @@
+.pieChart {
+  flex: 1;
+  height: 480px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.chartBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chartTop {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

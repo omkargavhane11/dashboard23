@@ -1,0 +1,22 @@
+.widget {
+  box-sizing: border-box;
+  height: 100px;
+  width: 250px;
+  background-color: white;
+  /* border: 2px solid blue; */
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  border-left: 5px solid gray;
+}
+
+.widget_left > div {
+  color: blueviolet;
+  font-size: 18px;
+}
+
+.widget_left > span {
+  font-size: 22px;
+}

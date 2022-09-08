@@ -1,0 +1,89 @@
+.sidebar {
+  padding: 10px 20px;
+  background-color: #4e73df;
+  color: rgb(220, 218, 218);
+  height: 100vh;
+  box-sizing: border-box;
+}
+.logo {
+  padding: 10px 0px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+.dashboarcd_link {
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.section {
+  padding: 6px 0px;
+}
+
+.section_heading {
+  padding: 5px 0px;
+}
+.sectionChild {
+  display: flex;
+  align-items: center;
+  /* gap: 10px; */
+  justify-content: space-between;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.sectionChild:hover {
+  color: white;
+}
+
+.sectionChild_left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+hr {
+  /* background-color: black; */
+  /* border: none; */
+  border: 0.2px solid #3e57a1;
+  height: 0px;
+  /* width: 0.2px; */
+}
+
+.childOptions {
+  padding: 10px;
+}
+
+.childOption_wrapper {
+  transition: all 3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.childOption_wrapper > button {
+  border: none;
+  font-size: 16px;
+  font-weight: lighter;
+  outline: none;
+  padding: 5px;
+  background: none;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.childOption_wrapper > span {
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.childOption_wrapper > button:hover {
+  background-color: rgb(242, 242, 242);
+}
