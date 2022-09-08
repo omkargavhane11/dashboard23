@@ -22,8 +22,8 @@ input {
 }
 
 .search_icon {
-  background-color: #4e73df;
-  color: white;
+  /* background-color: #4e73df; */
+  color: black;
   height: 100%;
   /* padding: 5px; */
   cursor: pointer;
